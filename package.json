@@ -1,0 +1,19 @@
+{
+  "name": "owl",
+  "version": "1.0.0",
+  "description": "An API for devs to grab data about the competitive team-based multiplayer game Overwatch",
+  "main": "owl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tassyguy/OWL.git"
+  },
+  "author": "Simon Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tassyguy/OWL/issues"
+  },
+  "homepage": "https://github.com/tassyguy/OWL#readme"
+}
