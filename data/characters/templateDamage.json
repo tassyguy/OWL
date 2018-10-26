@@ -1,0 +1,128 @@
+{
+    "name": "characterName",
+    "nationality": "country",
+    "age": null,
+    "totalHealth": {
+        "health": null,
+        "armor": null,
+        "shield": null
+    },
+    "role": "damage",
+    "difficulty": null,
+    "moves": {
+        "weapons": {
+            "primary": {
+                "name": "primaryWeaponName",
+                "damage": {
+                    "min": null,
+                    "max": null
+                },
+                "falloffRange": {
+                    "min": null,
+                    "max": null
+                },
+                "spreadAngle": {
+                    "min": null,
+                    "max": null
+                },
+                "numberOfPelletsPerShot": null,
+                "shotsPerSecond": null,
+                "ammo": null,
+                "ammoRounds": null,
+                "reloadTime": null,
+                "canHeadshot": null
+            },
+            "secondary": {
+                "name": "secondaryWeaponName",
+                "damage": {
+                    "min": null,
+                    "max": null
+                },
+                "falloffRange": {
+                    "min": null,
+                    "max": null
+                },
+                "spreadAngle": {
+                    "min": null,
+                    "max": null
+                },
+                "numberOfPelletsPerShot": null,
+                "shotsPerSecond": null,
+                "ammo": null,
+                "ammoRounds": null,
+                "reloadTime": null,
+                "canHeadshot": null
+            }
+        },
+        "abilities": {
+            {
+                "name": "name",
+                "type": "type",
+                "damage": {
+                    "base": null,
+                    "directHit": null,
+                    "splash": null,
+                    "self": null,
+                    "total": null
+                },
+                "projectileSpeed": null,
+                "areaOfEffect": null,
+                "duration": null,
+                "cooldownTime": null,
+                "canHeadshot": null,
+                "moveSpeed": null,
+                "maxRange": null,
+                "castingTime": null,
+                "healing": {
+                    "perSecond": null,
+                    "total": null
+                }
+            }
+        },
+        "passiveAbility": {
+            "moveSpeed": null,
+            "duration": null,
+            "cooldown": null
+        },
+        "ultimate": {
+            "name": "name",
+            "reloadTime": null,
+            "castingTime": null,
+            "duration": null,
+            "chargeRequired": null
+        }
+    },
+    "skins": {
+        "common": {
+            "name": "name",
+            "price": null
+        },
+        "rare": [{
+                "name": "name",
+                "price": null
+            },
+            {
+                "name": "name",
+                "price": null
+            }
+        ],
+        "epic": [{
+                "name": "name",
+                "price": null
+            },
+            {
+                "name": "name",
+                "price": null
+            }
+        ],
+        "legendary": [{
+                "name": "name",
+                "price": null
+            },
+            {
+                "name": "name",
+                "price": null
+            }
+        ]
+    }
+}
