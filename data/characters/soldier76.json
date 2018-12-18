@@ -1,0 +1,128 @@
+{
+    "name": "Soldier 76",
+    "nationality": "United States",
+    "age": null,
+    "totalHealth": {
+        "health": 200,
+        "armor": 0,
+        "shield": 0
+    },
+    "role": "damage",
+    "difficulty": 1,
+    "moves": {
+        "weapons": {
+            "primary": {
+                "name": "Heavy Pulse Rifle",
+                "damage": {
+                    "min": 9.5,
+                    "max": 19
+                },
+                "falloffRange": {
+                    "min": 30,
+                    "max": 55
+                },
+                "spreadAngle": {
+                    "min": null,
+                    "max": null
+                },
+                "numberOfPelletsPerShot": 1,
+                "shotsPerSecond": 8.66,
+                "ammo": 25,
+                "ammoRounds": 25,
+                "reloadTime": 1.5,
+                "canHeadshot": true
+            },
+            "secondary": {
+                "name": "Helix Rockets",
+                "damage": {
+                    "min": 80,
+                    "max": 120
+                },
+                "falloffRange": {
+                    "min": null,
+                    "max": null
+                },
+                "spreadAngle": {
+                    "min": null,
+                    "max": null
+                },
+                "numberOfPelletsPerShot": 1,
+                "shotsPerSecond": 1,
+                "ammo": null,
+                "ammoRounds": null,
+                "reloadTime": null,
+                "canHeadshot": false
+            }
+        },
+        "abilities": {
+            {
+                "name": "name",
+                "type": "type",
+                "damage": {
+                    "base": null,
+                    "directHit": null,
+                    "splash": null,
+                    "self": null,
+                    "total": null
+                },
+                "projectileSpeed": null,
+                "areaOfEffect": null,
+                "duration": null,
+                "cooldownTime": null,
+                "canHeadshot": null,
+                "moveSpeed": null,
+                "maxRange": null,
+                "castingTime": null,
+                "healing": {
+                    "perSecond": null,
+                    "total": null
+                }
+            }
+        },
+        "passiveAbility": {
+            "moveSpeed": null,
+            "duration": null,
+            "cooldown": null
+        },
+        "ultimate": {
+            "name": "name",
+            "reloadTime": null,
+            "castingTime": null,
+            "duration": null,
+            "chargeRequired": null
+        }
+    },
+    "skins": {
+        "common": {
+            "name": "name",
+            "price": null
+        },
+        "rare": [{
+                "name": "name",
+                "price": null
+            },
+            {
+                "name": "name",
+                "price": null
+            }
+        ],
+        "epic": [{
+                "name": "name",
+                "price": null
+            },
+            {
+                "name": "name",
+                "price": null
+            }
+        ],
+        "legendary": [{
+                "name": "name",
+                "price": null
+            },
+            {
+                "name": "name",
+                "price": null
+            }
+        ]
+    }
+}
